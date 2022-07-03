@@ -1,0 +1,8 @@
+.page{
+    display:flex;
+}
+.background{
+    width: 50vh;
+    height: 100vh;
+    background: url('./carbackground.jpg');
+}
