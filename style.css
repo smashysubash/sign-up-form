@@ -1,8 +1,54 @@
-.page{
-    display:flex;
+body{
+    font-size: 18px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Brush Script MT', cursive;
 }
-.background{
-    width: 50vh;
-    height: 100vh;
-    background: url('./carbackground.jpg');
+
+.background > img{
+    max-width: 100vw;
+    max-height: 100vh;
+}
+.container{
+    display: flex;
+    align-content: space-around;
+}
+.textcontainer{
+    display: flex;
+    background-color: #dfc8ca;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* .textcontainer > .con1{
+    height: 30vh;
+} */
+
+.con1, .con2{
+    padding-left: 5vw;
+}
+.con2>button{
+    color: whitesmoke;
+    background-color: rgb(48, 42, 42) ;
+    border-radius: 5px 5px 5px 5px;
+    font-size:large;
+}
+
+.textcontainer > form{
+    background-color: rgb(48, 42, 42);
+    /* height: 30vh; */
+    color: whitesmoke;
+} 
+form>div>input{
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+form>div{
+    padding: 5vh 5vw 5vh 5vw;
 }
